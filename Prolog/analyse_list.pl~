@@ -1,0 +1,5 @@
+analyse_list([Head|Tail]):- write("This is Head :"),
+	                    write(Head),
+			    writeln("This is Tail :"),
+			    write(Tail).
+

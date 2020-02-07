@@ -1,0 +1,7 @@
+down_up(L,H,Step) :- L =< H.
+down_up(L,H,Step) :-
+                    Inc is L+Step,
+                    write("*"),nl,
+                    Inc =< H,
+                    down_up(Inc,H,Step).
+
