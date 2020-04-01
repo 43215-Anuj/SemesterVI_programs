@@ -5,6 +5,9 @@ Created on Fri Feb  7 11:54:49 2020
 
 @author: baljeetkaur
 """
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.linear_model import Ridge
 
 alphas = 10**np.linspace(10,-2,100)*0.5
 

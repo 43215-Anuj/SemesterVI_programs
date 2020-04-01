@@ -5,7 +5,7 @@ Created on Sat Feb  1 09:07:09 2020
 
 @author: baljeetkaur
 """
-
+import numpy as np
 from sklearn import datasets, linear_model
 from sklearn.model_selection import cross_val_score
 
